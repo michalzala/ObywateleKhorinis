@@ -1,0 +1,29 @@
+﻿<Window x:Class="ObywateleKhorinis.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObywateleKhorinis"
+        mc:Ignorable="d"
+        Title="Dodawanie Nowego Obywatela" Height="391.075" Width="450">
+    <Grid>
+        <Label Content="Dodaj nowego Obywatela" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Podaj ID:" HorizontalAlignment="Left" Margin="108,56,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.37,-2.262"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="210,56,0,0" Name="ObywatelId"/>
+
+        <Label Content="Podaj Imie:" HorizontalAlignment="Left" Margin="108,86,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.37,-2.262"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="210,85,0,0" Name="Imie"/>
+
+        <Label Content="Podaj Hierarchię:" HorizontalAlignment="Left" Margin="108,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.37,-2.262"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="210,113,0,0" Name="Hierarchia"/>
+
+        <Label Content="Podaj Wyznanie:" HorizontalAlignment="Left" Margin="108,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.37,-2.262"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="210,141,0,0" Name="Wyznanie"/>
+
+        <Button Content="Dodaj Obywatela" HorizontalAlignment="Left" Margin="24,208,0,0" VerticalAlignment="Top" Width="142" Height="35" Click="DodajObywatela_Click"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="210,169,0,0" VerticalAlignment="Top" Width="120" Name="Pokaz_obraz"/>
+        <Button Content="Wybierz Obraz" HorizontalAlignment="Left" Margin="50,260,0,0" VerticalAlignment="Top" Width="97" Click="WstawObraz_Click"/>
+
+    </Grid>
+</Window>
